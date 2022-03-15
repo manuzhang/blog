@@ -51,7 +51,7 @@ The rational behind the change is to disable bucketed scan when there are no ben
 
 One more puzzle for me is the special incremental way the tasks were scheduled in 3.1.1. Searching for keyword "limit" in configs has led me to `spark.sql.limit.scaleUpFactor` whose doc says
 
-> Minimal increase rate in number of partitions between attempts when executing a take on a query. Higher values lead to more partitions read. Lower values might lead to longer execution times as more jobs will be run.
+> Minimal increase rate in number of partitions between attempts when executing a take on a query. Higher values lead to more partitions read. Lower values might lead to longer execution times as more jobs will be run. (Default value is 4)
 
 I tried increasing the config to 300k and the performance was a bit better with 239999 tasks immediately being scheduled in the second stage. I suppose it would much better if I could got more resources to run those tasks in parallel.
 
