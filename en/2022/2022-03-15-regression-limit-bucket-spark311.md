@@ -4,7 +4,7 @@ layout: post
 title: Regression in taking LIMIT rows from a bucket table in Spark 3.1.1
 ---
 
-It's been almost three years since my [last post on Spark Python UDF](https://manuzhang.github.io/posts/2019-04-18-spark-python-udf/index.html) and I've dug deeper and learned more about Spark. I've also kept a practice of writing down how I approached to issues at work. However, I usually find they are either too specific to our own environment or have been well documented or I was occupied with some reading. Eventually, there can be no more "execuse" and here we go again!
+It's been almost three years since my [last post on Spark Python UDF](https://manuzhang.github.io/posts/2019-04-18-spark-python-udf/index.html) and I've dug deeper and learned more about Spark. I've also kept a practice of writing down how I approached to issues at work. However, I usually find they are either too specific to our own environment or have been well documented or I was occupied with some reading. Eventually, there can be no more "excuse" and here we go again!
 
 ### Regression
 
